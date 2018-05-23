@@ -1,0 +1,11 @@
+---
+title: "R Code"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r runanalysis, code=readLines('ML-Project-NMURPHY.R'), echo=TRUE, eval=FALSE}
+```
